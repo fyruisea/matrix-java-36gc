@@ -6,7 +6,7 @@ public class Second {
         Scanner sc = new Scanner(System.in);
 
 
-        System.out.print("Neçəlik vurma cədvəli çap edilsin? (məs: 10): ");
+/*        System.out.print("Neçəlik vurma cədvəli çap edilsin? (məs: 10): ");
         int n = sc.nextInt();
 
         System.out.println(n + "x" + n + " Vurma Cədvəli ");
@@ -26,7 +26,24 @@ public class Second {
             }
             System.out.println();
         }
+*/
 
+        for (int i = 1; i <= 4; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+
+        }
+
+        for (int i = 4; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
 
     }
 }
