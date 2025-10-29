@@ -28,7 +28,7 @@ public class Sixth {
         }
 
         int[] digits = new int[length];
-        temp =n;
+        temp = n;
 
 
         for (int i = length - 1; i >= 0; i--) {
@@ -45,7 +45,7 @@ public class Sixth {
         }
         if (length % 2 == 1) {
             count++;
-        }
+
         System.out.println(count);
 */
     //----------------------------------------
@@ -142,7 +142,7 @@ public class Sixth {
         }
 */
     //-------------------------------------------
-/*        int[][] array = {
+          int[][] array = {
                 {8, 18, 28, 38},
                 {48, 58, 68, 78},
                 {88, 98, 108, 118},
@@ -166,7 +166,7 @@ public class Sixth {
             }
             System.out.println();
         }
-*/
+
 
     }
 }

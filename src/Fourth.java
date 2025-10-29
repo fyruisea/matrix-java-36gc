@@ -154,26 +154,6 @@ public class Fourth {
 //        }
 
 
-        //Task 11
-//        int [] array1 = {1, 3, 4, 9, 15};
-//        int [] array2 = {2, 3, 5, 9, 14};
-//
-//        int i = 0,  j = 0;
-//
-//        System.out.println("Ortaq elementler");
-//
-//        while (i < array1.length && j < array2.length) {
-//            if (array1[i] == array2[j]) {
-//                System.out.println(array1[i] + " ");
-//                i++;
-//                j++;
-//            } else if (array1[i] < array2[j]) {
-//                i++;
-//            } else {
-//                j++;
-//            }
-//        }
-        
 
 
 
