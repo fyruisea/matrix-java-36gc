@@ -4,19 +4,17 @@ public class Main {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    Person[] people = new Person[2];
 
-    for(int i = 0; i < people.length; i++) {
-        System.out.println("Sexsin melumatlari:");
-        people[i] = new Person();
-        people[i].inputData();
-    }
+        System.out.println("Ad daxil edin:");
+        String name = sc.next();
+        System.out.println("Soyad daxil et:");
+        String surname = sc.next();
+        System.out.println("Yash daxil et:");
+        int age = sc.nextInt();
 
-        System.out.println("\nDaxil etdikleriniz:");
-        for (Person per : people) {
-            per.printData();
-        }
+        Student student = new Student(name, surname, age);
+        student.print();
 
-        Person.printCount();
+
   }
 }
