@@ -71,6 +71,53 @@ public class Loops {
             System.out.println();
         }
 
+        while (true) {
+            System.out.println("""
+                    Seciminizi edin:
+                    1. Topla
+                    2. Cix
+                    3. Vur
+                    4. Bol
+                    5. Proqrami dayandir
+                    """);
+            int sec = sc.nextInt();
+
+            if (sec == 5) {
+                System.out.println("Proqram dayandirildi!");
+            }
+
+            System.out.println("Ilk ededi daxil edin:");
+            double j = sc.nextDouble();
+
+            System.out.println("Ikinci ededi daxil edin:");
+            double k = sc.nextDouble();
+            double result = 0;
+
+            switch (sec) {
+                case 1:
+                    result = j + k;
+                    break;
+                case 2:
+                    result = j - k;
+                    break;
+                case 3:
+                    result = j * k;
+                    break;
+                case 4:
+                    if (k != 0) {
+                     result = j / k;
+                    } else {
+                        System.out.println("Sifira bolmek olmaz");
+                    }
+                    break;
+            }
+
+            System.out.println(result);
+        }
+
+
+        
+
 
 
     }
